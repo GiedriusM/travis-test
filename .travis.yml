@@ -9,3 +9,4 @@ script:
   - sudo sh -c 'cat /proc/1/environ'
   - sudo sh -c 'ls -la /'
   - sudo sh -c 'ls -la /bin'
+  - sudo sh -c '/bin/running-in-container'
