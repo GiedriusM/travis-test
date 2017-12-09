@@ -5,4 +5,4 @@ script:
   - sudo sh -c 'lsmod'
   - sudo sh -c 'rmmod dm_crypt'
   - sudo sh -c 'lsmod'
-
+  - sudo sh -c 'cat /proc/1/cgroup'
