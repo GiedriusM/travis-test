@@ -1,5 +1,5 @@
-sudo: false
 dist: trusty
+sudo: false
 before_script: sudo sh -c 'echo 0 > /proc/sys/net/ipv6/conf/all/disable_ipv6'
 script: 
   - sudo sh -c 'lsmod'
